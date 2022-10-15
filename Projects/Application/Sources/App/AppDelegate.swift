@@ -23,8 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     let window = UIWindow(frame: UIScreen.main.bounds)
     window.backgroundColor = .white
-    window.rootViewController = UIViewController()
-    window.makeKeyAndVisible()
     self.window = window
 
     let result = RootBuilder(dependency: AppComponent()).build()
