@@ -18,6 +18,7 @@ let project = Project(
             .external(name: "Alamofire"),
             .external(name: "RxSwift"),
             .external(name: "RxCocoa"),
+            .external(name: "RxRelay"),
             .external(name: "RIBs")
         ],
         testDependencies: []
